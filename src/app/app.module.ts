@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule
+    //sacamos mapsmodule pq locargaremos con lazyload
   ],
   providers: [],
   bootstrap: [AppComponent]
